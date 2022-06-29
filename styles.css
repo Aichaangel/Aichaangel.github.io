@@ -1,8 +1,33 @@
 h1,p {
   text-align: center;
-  color: white;
+  color:white;
+  top:20px;
   }
+
 body{
-  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
-  background-position: center;
+  font-family:courier;
+  background-image:
+   linear-gradient(
+      180deg,
+      rgba(120, 70, 150, 0.8),
+      rgba(136, 136, 206, 0.2)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+}
+form{
+background-color:rgba(100,149,237,90%);
+  padding:50;
+  margin:100;
+}
+label{
+  display:block;
+  margin:5px 0;
+}
+input{
+  display:block;
+  margin:5px 0;
+  font-family:courier
+}
+
+.input-rate,.input-improvement{ display:inline-block;
 }
