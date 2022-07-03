@@ -1,51 +1,65 @@
-body{
+body {
   width: 100%;
   font-family: fantasy;
-
   background-image: linear-gradient(180deg,rgba(120, 70, 150, 0.8),rgba(136, 136, 206,0.2)),
-  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
 }
-
+  
 h1,p {
   text-align: center;
   color:white;
-font-family: courier;
-  }
-
-
-form{
-background-color:rgba(140,149,237,90%);
-  padding:50;
-  margin:100;
-  text-align:center;
+  font-family: courier;
 }
-label,textarea{
+  
+form {
+  background-color:rgba(140,149,237,90%);
+  padding:10px;
+  text-align:center;
+  max-width: 500px;
+	min-width: 300px;
+  margin: 0 auto;
+
+}
+
+label {
   display:block;
   margin:5px 0 0 0;
-  padding:5px;
-}
 
-.input-text{ width:300;
-display:block;
 }
-
-.kiss,.enquete{
+  
+.input-text {
+  width:300;
+  display:block;
+}
+  
+#kiss, #enquete {
   text-align: center;
-  color:#800099;
-  font-size:22
+  color:#800099;  
+  font-size: 20px;
+  padding:20px 0 0 0
+}
+  
+.input-rate,.input-improvement {
+  display:inline-block;
 }
 
-.input-rate,.input-improvement{display:inline-block;
-}
-input, select, option, textarea{
-font-family:courier;
+input, select, option, textarea {
+  font-family:courier;
   margin: 10px 0 0 0;
+  align-items: center;
 }
 
-textarea{	width: auto;}
-
-#submit{
-font-family:fantasy;}
-#commenter{
-  text-align:center;
+.input-textarea {
+  width: 100%;
+  max-width: 310px;
+	min-width: 200px;
 }
+
+div {
+  padding:20px 0 10px 0 
+}
+  
+#submit {
+  font-family:fantasy;
+}
+
