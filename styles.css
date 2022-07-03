@@ -1,33 +1,51 @@
+body{
+  width: 100%;
+  font-family: fantasy;
+
+  background-image: linear-gradient(180deg,rgba(120, 70, 150, 0.8),rgba(136, 136, 206,0.2)),
+  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+}
+
 h1,p {
   text-align: center;
   color:white;
-  top:20px;
+font-family: courier;
   }
 
-body{
-  font-family:courier;
-  background-image:
-   linear-gradient(
-      180deg,
-      rgba(120, 70, 150, 0.8),
-      rgba(136, 136, 206, 0.2)
-    ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
-}
+
 form{
-background-color:rgba(100,149,237,90%);
+background-color:rgba(140,149,237,90%);
   padding:50;
   margin:100;
+  text-align:center;
 }
-label{
+label,textarea{
   display:block;
-  margin:5px 0;
-}
-input{
-  display:block;
-  margin:5px 0;
-  font-family:courier
+  margin:5px 0 0 0;
+  padding:5px;
 }
 
-.input-rate,.input-improvement{ display:inline-block;
+.input-text{ width:300;
+display:block;
+}
+
+.kiss,.enquete{
+  text-align: center;
+  color:#800099;
+  font-size:22
+}
+
+.input-rate,.input-improvement{display:inline-block;
+}
+input, select, option, textarea{
+font-family:courier;
+  margin: 10px 0 0 0;
+}
+
+textarea{	width: auto;}
+
+#submit{
+font-family:fantasy;}
+#commenter{
+  text-align:center;
 }
