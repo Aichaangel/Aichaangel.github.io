@@ -8,40 +8,41 @@
     <p id="description"><em>Tu es en train de penser que ta copine est trop mignonne, c'est ca?</em></p>
     <form id="survey-form">
 
-  <label class="enquete">Petite enquete pour toi, mon cheri</label>
-  <label class="kiss">^3^^3^^3^^3^</label>
+  <label id="enquete">Petite enquete pour toi, mon cheri</label>
+  <label id="kiss">^3^^3^^3^^3^</label>
 <div >
-  <label id="name-label" for="name">Ton souhaite d'anniversaire cette annee c'est? </label>
-  <input class="input-text" id="name" type="text" placeholder="Ecris ton souhaite ici cheri" required></input>
+  <label id="souhaite" for="souhaite">Ton souhaite d'anniversaire cette annee c'est? </label>
+  <input class="input-textarea" id="souhaite" type="text" placeholder="Ecris ton souhaite ici cheri" required></input>
 </div>
 
 <div>
-  <label id="role-label" for="role">Quel mot peut decrire ton humeur en ce moment?</label>
+  <label id="mot-label" for="mot">Quel mot peut decrire ton humeur en ce moment?</label>
   <select id="dropdown" required>
   <option id="choisis" value="">Choisis le mot le plus proche</option>
-  <option value="student">Etonnant</option>
-  <option value="job">Impassible</option>
-  <option value="other">Austere</option>
+  <option value="etonnant">Etonnant</option>
+  <option value="impassible">Impassible</option>
+  <option value="austere">Austere</option>
+  <option value="other">Other</option>
   </select>
 </div>
 
 <div>
   <label id="recommend-label">Cheri tu m'aimes?</label>
-  <label><input type="radio" name="recommandation-rate" class="input-rate" value="definitely"/>Je t'aime bien</label>
-  <label><input type="radio" name="recommandation-rate" class="input-rate" value="maybe"/>Je t'aime</label>
-  <label><input type="radio" name="recommandation-rate" class="input-rate" value="not-sure"/>Je t'aime a la folie</label>
+  <label><input type="radio" name="recommandation-rate" class="input-rate" value="jetaimebien"/>Je t'aime bien</label>
+  <label><input type="radio" name="recommandation-rate" class="input-rate" value="jetaime"/>Je t'aime</label>
+  <label><input type="radio" name="recommandation-rate" class="input-rate" value="alafolie"/>Je t'aime a la folie</label>
 </div>
 
 <div>
   <label>Cheri tu m'aimes quand?</label>
-  <label><input type="checkbox" name="improvement" class="input-improvement" value="front-end"/>Je t'aimais</label>
-  <label><input type="checkbox" name="improvement" class="input-improvement" value="back-end"/>Je t'aime</label>
-<label><input type="checkbox" name="improvement" class="input-improvement" value="others"/>Je t'aimerai</label>
+  <label><input type="checkbox" name="improvement" class="input-improvement" value="aimais"/>Je t'aimais</label>
+  <label><input type="checkbox" name="improvement" class="input-improvement" value="aime"/>Je t'aime</label>
+<label><input type="checkbox" name="improvement" class="input-improvement" value="aimerai"/>Je t'aimerai</label>
 </div>
 
 <div id="commenter">
   <label>Cherii, cheriiii, tu veux commenter un peu?
-    <textarea class="input-text" name="suggestion" rows="5" cols="60" placeholder="EXEMPLE:Cherie t'es trop trop trop mignonne..."></textarea>
+    <textarea class="input-textarea" name="suggestion" rows="5" cols="60" placeholder="EXEMPLE:Cherie t'es trop trop trop mignonne..."></textarea>
   </label>  
 </div>
 
