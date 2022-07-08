@@ -21,6 +21,7 @@ form {
 	min-width: 300px;
   margin: 0 auto;
   border-radius: 10px 70px 10px 70px;
+  box-shadow: 0 0 5px 5px #aa4ba1
 }
 
 label {
